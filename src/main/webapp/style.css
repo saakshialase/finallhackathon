@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f0ff; /* Light blue background */
+}
+
+/* Header styles */
+header {
+    background-color: #0056b3; /* Dark blue header */
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Illustration styles */
+.illustration {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.book-stack {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.book-stack img {
+    width: 100%;
+}
+
+.student1, .student2 {
+    position: absolute;
+}
+
+/* Responsive styles (optional) */
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .illustration {
+        width: 100%;
+    }
+}
